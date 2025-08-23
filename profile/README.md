@@ -3,7 +3,7 @@
 </div>
 
 <div align="center">
-  <h2> Parrot CTFs Premier Ethical Hacking Labs and Training </h2>
+  <h2> Parrot CTFs: #1 Cyber Security Education &amp; Upskilling Labs </h2>
 </div>
 
 Welcome to Parrot CTFs, where we provide top-notch ethical hacking labs and training. Our platform is designed to help you scale your cybersecurity skills through interactive Capture the Flag (CTF) challenges, vulnerable lab machines and academic content. Whether you are an individual looking to enhance your skills or a business seeking to train your team, Parrot CTFs has something for everyone.
