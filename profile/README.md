@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://s3.parrot-ctfs.com/687f184745abe6.68974060.png" width="auto">
+    <img src="https://s3.parrot-ctfs.com/6971e9351b9956.42192844.png" width="auto">
 </div>
 
 <div align="center">
