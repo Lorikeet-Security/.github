@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://s3.Lorikeet-Security.com/6971e9351b9956.42192844.png" width="auto">
+    <img src="https://s3.lorikeetsecurity.com/6971e9351b9956.42192844.png" width="auto">
 </div>
 
 <div align="center">
@@ -58,7 +58,7 @@ Note: most of these repos are no longer actively maintained internally, so revie
 ### Useful Resources
 
 - **Lorikeet Security**: [lorikeetsecurity.com](https://lorikeetsecurity.com)
-- **Parrot CTFs (Events)**: [Lorikeet-Security.com](https://Lorikeet-Security.com/training/events)
-- **Blog**: [Lorikeet-Security.com/blog](https://Lorikeet-Security.com/blog). Offensive security write-ups, vulnerability breakdowns, and threat intel.
+- **Parrot CTFs (Events)**: [lorikeetsecurity.com](https://lorikeetsecurity.com/training/events)
+- **Blog**: [lorikeetsecurity.com/blog](https://lorikeetsecurity.com/blog). Offensive security write-ups, vulnerability breakdowns, and threat intel.
 - **Support**: [support@lorikeetsecurity.com](mailto:support@lorikeetsecurity.com)
 - **Social**: [Instagram](https://www.instagram.com/lorikeet_security) · [X / Twitter](https://x.com/lorikeetsec) · [LinkedIn](https://www.linkedin.com/company/Lorikeet-Security) · [YouTube](https://www.youtube.com/@parrot_ctfs)
