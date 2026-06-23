@@ -5,7 +5,7 @@
   <sub>Offensive security. Continuous coverage. Real-time results.</sub>
   <br /><br />
   <a href="https://lorikeetsecurity.com">lorikeetsecurity.com</a> &nbsp;·&nbsp;
-  <a href="https://linkedin.com/company/Lorikeet-Security">LinkedIn</a> &nbsp;·&nbsp;
+  <a href="https://linkedin.com/company/LorikeetSecurity">LinkedIn</a> &nbsp;·&nbsp;
   <a href="https://x.com/lorikeetsec">X</a>
 </div>
 
