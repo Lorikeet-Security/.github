@@ -20,13 +20,13 @@ We test the way attackers think. Then we help you fix it.
 ### What We Do
 
 **Penetration Testing (PTaaS)**
-Web app, API, cloud, mobile, network, and red team engagements. Starting at $2,500. Results land in your client portal in real time -- no waiting weeks for a PDF.
+Web app, API, cloud, mobile, network, and red team engagements. Starting at $2,500. Results land in your client portal in real time - no waiting weeks for a PDF.
 
 **Attack Surface Management**
 Continuous external monitoring across your entire perimeter. Sub-5-minute alerts. Findings you can act on.
 
 **Compliance + vCISO**
-SOC 2 Type II, ISO 27001, PCI DSS, HIPAA. Lory handles routing, evidence automation, and audit readiness. Elissa Shevinsky leads our vCISO practice.
+SOC 2 Type II, ISO 27001, PCI DSS, HIPAA. Lory handles routing, evidence automation, and audit readiness.
 
 **Cyber Awareness Training**
 12 modules, 57 lessons, 3 skill levels. Phishing simulations with real-time analytics and compliance-ready reporting.
@@ -35,7 +35,7 @@ SOC 2 Type II, ISO 27001, PCI DSS, HIPAA. Lory handles routing, evidence automat
 Hardcoded secrets, missing auth, open APIs -- caught before production.
 
 **CTF Event Hosting**
-Custom Capture the Flag events for hiring pipelines, team training, and conferences. Hosted under our **Parrot CTFs** brand. From ~$2,500.
+Custom Capture the Flag events for hiring pipelines, team training, and conferences. Hosted under our **Parrot CTFs** brand. 
 
 ---
 
