@@ -11,7 +11,7 @@
 
 ---
 
-We're a full-spectrum offensive security firm. Penetration testing, attack surface management, compliance, and vCISO services -- delivered through a real-time SaaS platform powered by **Lory**, our AI security assistant.
+We're a full-spectrum offensive security firm. Penetration testing, attack surface management, compliance, and vCISO services delivered through a real-time SaaS platform powered by **Lory**, our AI security assistant.
 
 We test the way attackers think. Then we help you fix it.
 
@@ -20,7 +20,7 @@ We test the way attackers think. Then we help you fix it.
 ### What We Do
 
 **Penetration Testing (PTaaS)**
-Web app, API, cloud, mobile, network, and red team engagements. Starting at $2,500. Results land in your client portal in real time - no waiting weeks for a PDF.
+Web app, API, cloud, mobile, network, and red team engagements. Results land in your client portal in real time - no waiting weeks for a PDF.
 
 **Attack Surface Management**
 Continuous external monitoring across your entire perimeter. Sub-5-minute alerts. Findings you can act on.
@@ -32,7 +32,7 @@ SOC 2 Type II, ISO 27001, PCI DSS, HIPAA. Lory handles routing, evidence automat
 12 modules, 57 lessons, 3 skill levels. Phishing simulations with real-time analytics and compliance-ready reporting.
 
 **AI Code Security Reviews**
-Hardcoded secrets, missing auth, open APIs -- caught before production.
+Hardcoded secrets, missing auth, open APIs; caught before production.
 
 **CTF Event Hosting**
 Custom Capture the Flag events for hiring pipelines, team training, and conferences. Hosted under our **Parrot CTFs** brand. 
@@ -41,7 +41,7 @@ Custom Capture the Flag events for hiring pipelines, team training, and conferen
 
 ### Open Source
 
-This org hosts tooling and resources we've built and released to the community -- scanners, recon automation, lab environments, and pentest references. Most repos here are no longer actively maintained internally, but they're free to fork and build on.
+This org hosts tooling and resources we've built and released to the community scanners, recon automation, lab environments, and pentest references. Most repos here are no longer actively maintained internally, but they're free to fork and build on.
 
 Contributions are welcome. Open an issue, submit a PR, or [sponsor our open-source work](https://github.com/sponsors/Lorikeet-Security).
 
