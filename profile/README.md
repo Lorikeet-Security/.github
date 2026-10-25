@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://s3.parrot-ctfs.com/6971e9351b9956.42192844.png" width="150px" alt="Lorikeet Security" />
+  <img src="https://lorikeetsecurity.com/images/lorikeet-logo-banner.png" width="150px" alt="Lorikeet Security" />
   <br /><br />
   <strong>Lorikeet Security</strong><br />
   <sub>Human first. AI-native. One platform for your whole security program.</sub>
