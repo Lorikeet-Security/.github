@@ -23,23 +23,25 @@ We run human-led penetration tests and an autonomous AI pentester against the sa
 
 ### Where Lory Meets Your Code
 
-Four surfaces, one AI pentester. Scan before you commit, triage findings from the terminal, install the agent so she can reach your internal network, or catch vulnerabilities in the editor.
+Autonomous AI pentesting across the CLI, editor, and network. Scan before you commit, triage findings from your terminal, install the connector for authorized internal ranges, or catch vulnerabilities in your editor.
 
 | Project | What it does | |
 |---|---|---|
-| **[lory-code-security-scanner](https://github.com/Lorikeet-Security/lory-code-security-scanner)** | `lory-scan` — a local static scanner for source trees. ~100 rules with a CWE, severity, confidence and a concrete fix, across Python, JS/TS, PHP, Java, Kotlin, Go, C#, Ruby, shell, Dockerfiles, K8s manifests, Terraform and CI workflows. No account, no API key, no network call. | `Python` `MIT` |
-| **[lory-findings-tui](https://github.com/Lorikeet-Security/lory-findings-tui)** | `lory` — the findings cockpit. Pull findings from the platform over MCP or from a local scan, trace them to the offending lines, ask Lory for the fix, file the retest. It scans nothing itself; only a human retest closes a finding. | `Python` `MIT` |
-| **[lorikeet-security-agent](https://github.com/Lorikeet-Security/lorikeet-security-agent)** | `lk-exporter` — the in-network agent. A per-host posture sensor: open ports and service versions, OS patch state mapped to CVEs, EOL software, inventory drift, and an npm supply-chain crawl against OSV. Outbound-only, scope-gated, and drivable by Lory over MCP. A Python agent you install, not an appliance. | `Python` `MIT` |
-| **[vs-code](https://github.com/Lorikeet-Security/vs-code)** | Lory reviews your code for vulnerabilities as you write it, inside VS Code. The left shift: catch it at the keystroke, not at the pentest. | `TypeScript` |
-
-The scanner and the cockpit are two halves of the same toolchain:
+| **[lory-cli](https://github.com/Lorikeet-Security/lory-cli)** | `lory` — the official CLI. Autonomous AI code security review, in-place quick fixes, web target auditing, findings triage, and embedded Model Context Protocol (MCP) server. Zero dependencies, standalone binary. | `Go` `Apache 2.0` |
+| **[vs-code](https://github.com/Lorikeet-Security/vs-code)** | Lory reviews your code for vulnerabilities as you write it, inside VS Code. Catch security issues at the keystroke, not at the pentest. [Available on the Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=LorikeetSecurity.lory). | `TypeScript` `Marketplace` |
+| **[lory-mesh](https://lorikeetsecurity.com/mesh)** | Lory Mesh Connector — zero-dependency connector for authorized internal network assessments and continuous PTaaS engagements. | `Shell / Go` |
 
 ```bash
-pip install lory-code-security-scanner
-pip install "lory-code-security[tui]"
+# Install the Lory CLI
+curl -fsSL https://lorikeetsecurity.com/install.sh | bash
 
-lory-scan sync        # scan this repo
-lory tui --cached     # triage what it found
+# Or install via Go
+go install github.com/Lorikeet-Security/lory-cli@latest
+
+# Run reviews, target audits, or pre-commit diffs
+lory review .         # review current directory for vulnerabilities
+lory scan target.com  # audit security headers, SSL/TLS, and posture
+lory diff             # inspect staged git changes before commit
 ```
 
 ### Learn
@@ -47,25 +49,22 @@ lory tui --cached     # triage what it found
 | Project | What it does | |
 |---|---|---|
 | **[owasp-top-10-labs-lamp-dockerized](https://github.com/Lorikeet-Security/owasp-top-10-labs-lamp-dockerized)** | Dockerized OWASP Top 10 lab machines. Deliberately vulnerable, deliberately reproducible — what we train our own testers on. | `PHP` |
-| **[PCTFS-MICROLABS](https://github.com/Lorikeet-Security/PCTFS-MICROLABS)** | Free-to-use standalone web app of hands-on micro labs for sharpening practical security skills. | `PHP` |
 
 [**Browse all repositories →**](https://github.com/orgs/Lorikeet-Security/repositories)
 
 ---
 
-### Install the Agent
+### In-Network Testing & Connector
+
+Connect your authorized internal network ranges to continuous PTaaS testing through the one-liner Lory Mesh Connector:
 
 ```bash
-python -m venv .venv && source .venv/bin/activate
-pip install lorikeet-security-agent-exporter
-
-lk-exporter validate --config config.yaml   # scope is an allowlist; nothing runs without it
-lk-exporter run --agent-mode                # continuous collection + MCP, so Lory can drive it
+curl -fsSL https://lorikeetsecurity.com/mesh/install.sh | sudo LORY_ENROLL=lm_your_token sh
 ```
 
-Scope is enforced as a code-level gate ahead of every collector — an out-of-scope host is never contacted. Standalone mode needs no platform account at all: omit `platform_url` and findings print as newline-delimited JSON to stdout for your SIEM.
+The connector establishes an outbound-only encrypted tunnel exclusively for authorized assessment targets. Standalone CLI workflows require no agent installation and run locally via `lory`.
 
-[Agent docs](https://lorikeetsecurity.com/lory#agent) · [MCP server](https://lorikeetsecurity.com/mcp-docs) · [API reference](https://lorikeetsecurity.com/developers)
+[Connector docs](https://lorikeetsecurity.com/lory#agent) · [MCP server](https://lorikeetsecurity.com/mcp-docs) · [API reference](https://lorikeetsecurity.com/developers)
 
 ---
 
