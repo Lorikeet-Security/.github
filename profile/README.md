@@ -88,15 +88,19 @@ Two rated 9.8 Critical — a stack buffer overflow in BGP NLRI parsing ([CVE-202
 
 ### Meet Lory
 
-Lory is our AI pentester, not a chatbot with a security theme. She takes a signed scope, runs a deterministic sweep, picks her own attack vectors, gives each one a focused pass with its own budget, validates and chains what she finds, and drafts the finding — then a Lorikeet pentester countersigns it before it ever reaches you.
+<img src="https://lorikeetsecurity.com/talon/assets/images/lory/lory-standing.png" align="right" width="160" alt="Lory AI Pentester" />
 
-- **57 attack playbooks**, loaded one at a time — depth per vector instead of one giant prompt skimmed thin
+Lory is our autonomous AI pentester, not a chatbot with a security theme. She takes a signed scope, runs a deterministic sweep, picks her own attack vectors, gives each one a focused pass with its own budget, validates and chains what she finds, and drafts the finding — then a Lorikeet penetration tester countersigns it before it ever reaches you.
+
+- **104+ attack playbooks**, loaded one at a time — depth per vector instead of one giant prompt skimmed thin
 - **1,969-entry knowledge base** built from OWASP ASVS, WSTG and Top 10, plus MITRE CWE and CAPEC
-- **Nothing ships unreviewed.** Findings sit in `pending_review`, invisible even to you, until a human approves them
+- **Nothing ships unreviewed.** Findings sit in `pending_review`, invisible even to you, until a certified human pentester approves and countersigns them
 - **Every run reports its own gaps** — vectors planned, vectors run, and vectors cut short by the depth ceiling, with the reason attached
 - **Prepaid credits, no seats.** $1 = 1 credit; MCP tool calls cost 0.1 credit; engagements bill by depth
 
 [Meet Lory](https://lorikeetsecurity.com/lory) · [How a run works](https://lorikeetsecurity.com/lory#engagement) · [Coverage & gaps](https://lorikeetsecurity.com/lory#coverage)
+
+<br clear="right" />
 
 ---
 
