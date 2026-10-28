@@ -116,11 +116,39 @@ Everything runs through [**Talon**](https://lorikeetsecurity.com/ptaas) — find
 
 ---
 
+### "Secured by Lorikeet Security" Trust Badges
+
+Demonstrate continuous security posture and verification on your code repositories. Showcase a verified cryptographic trust seal directly in your project README or documentation:
+
+[![Secured by Lorikeet Security](https://lorikeetsecurity.com/badges/lorikeet-secured-seal.svg)](https://lorikeetsecurity.com/trust-center)
+
+#### Embed Snippets
+
+**Markdown:**
+```markdown
+[![Secured by Lorikeet Security](https://lorikeetsecurity.com/badges/lorikeet-secured-seal.svg?target=github.com/org/repo)](https://lorikeetsecurity.com/trust-center?target=github.com/org/repo)
+```
+
+**HTML:**
+```html
+<a href="https://lorikeetsecurity.com/trust-center?target=github.com/org/repo"><img src="https://lorikeetsecurity.com/badges/lorikeet-secured-seal.svg?target=github.com/org/repo" alt="Secured by Lorikeet Security" /></a>
+```
+
+Developers can generate custom badge snippets and styles (`pill`, `shield`, `seal`, `minimal`) using the CLI:
+
+```bash
+lory badge github.com/your-org/your-repo
+```
+
+Visit [https://lorikeetsecurity.com/trust-center](https://lorikeetsecurity.com/trust-center) for attestation verification.
+
+---
+
 ### Contributing & Disclosure
 
 Issues and pull requests are welcome on any repo here. Keep collectors and rules modular and scope-safe, and include tests where practical.
 
-Found a vulnerability in something we ship? Report it to **security@lorikeetsecurity.com** — we respond within one business day and we credit researchers. See our [Trust Center](https://lorikeetsecurity.com/trust-center) for scope and policy.
+Found a vulnerability in something we ship? Report it to **security@lorikeetsecurity.com** — we respond within one business day and we credit researchers.
 
 Everything in this org is for assessing systems you own or are explicitly authorized to test.
 
