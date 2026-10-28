@@ -118,23 +118,35 @@ Everything runs through [**Talon**](https://lorikeetsecurity.com/ptaas) — find
 
 ### "Secured by Lorikeet Security" Trust Badges
 
-Demonstrate continuous security posture and verification on your code repositories. Showcase a verified cryptographic trust seal directly in your project README or documentation:
+Demonstrate continuous security posture and verification on your code repositories. Showcase a verified badge directly in your project README or documentation:
 
-[![Secured by Lorikeet Security](https://lorikeetsecurity.com/badges/lorikeet-secured-seal.svg)](https://lorikeetsecurity.com/trust-center)
+<p align="center">
+  <a href="https://lorikeetsecurity.com/trust-center">
+    <img src="https://lorikeetsecurity.com/badges/lorikeet-secured-shield.svg" alt="Secured by Lorikeet Security - Shield Badge" height="28" />
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://lorikeetsecurity.com/trust-center">
+    <img src="https://lorikeetsecurity.com/badges/lorikeet-secured-dark.svg" alt="Secured by Lorikeet Security - Pill Badge" height="34" />
+  </a>
+</p>
 
-#### Embed Snippets
+#### 1. Dual-Tone Shield (Recommended for READMEs)
 
-**Markdown:**
+Balanced 28px dual-plate badge with the Talon Claw shield on Navy and verified green plate for READMEs and docs:
+
 ```markdown
-[![Secured by Lorikeet Security](https://lorikeetsecurity.com/badges/lorikeet-secured-seal.svg?target=github.com/org/repo)](https://lorikeetsecurity.com/trust-center?target=github.com/org/repo)
+[![Secured by Lorikeet Security](https://lorikeetsecurity.com/badges/lorikeet-secured-shield.svg?target=github.com/org/repo)](https://lorikeetsecurity.com/trust-center?target=github.com/org/repo)
 ```
 
-**HTML:**
-```html
-<a href="https://lorikeetsecurity.com/trust-center?target=github.com/org/repo"><img src="https://lorikeetsecurity.com/badges/lorikeet-secured-seal.svg?target=github.com/org/repo" alt="Secured by Lorikeet Security" /></a>
+#### 2. Modern SaaS Footer Pill (Dark)
+
+Deep Canvas Navy with the official Talon PTaaS Shield & Claw and emerald verification chip:
+
+```markdown
+[![Secured by Lorikeet Security](https://lorikeetsecurity.com/badges/lorikeet-secured-dark.svg?target=github.com/org/repo)](https://lorikeetsecurity.com/trust-center?target=github.com/org/repo)
 ```
 
-Developers can generate custom badge snippets and styles (`pill`, `shield`, `seal`, `minimal`) using the CLI:
+#### Generate Badge via CLI
 
 ```bash
 lory badge github.com/your-org/your-repo
